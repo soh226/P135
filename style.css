@@ -1,0 +1,38 @@
+body{
+    background-size:cover;
+}
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+}
+
+#start, #status, #ObjectFound{
+    font-family:initial;
+    font-size: 20px;
+    color:rgb(17, 0, 255);
+}
+#status:hover{
+color:rgb(0, 255, 255);
+font-family: inherit;
+}
+#start:hover{
+    color:rgb(9, 255, 255);
+    font-family:inherit;
+}
+canvas{
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:130px;
+    box-shadow:5px 5px 5px gold;
+}
+.copy_right_footer{
+    position:fixed;
+    color: rgb(255, 0, 234);
+    bottom:0;
+    width:100%;
+    background-color:maroon;
+    line-height:2;
+    text-align:center;
+}
